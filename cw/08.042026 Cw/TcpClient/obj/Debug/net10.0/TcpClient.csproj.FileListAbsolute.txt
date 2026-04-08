@@ -1,0 +1,14 @@
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/bin/Debug/net10.0/TcpClient
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/bin/Debug/net10.0/TcpClient.deps.json
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/bin/Debug/net10.0/TcpClient.runtimeconfig.json
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/bin/Debug/net10.0/TcpClient.dll
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/bin/Debug/net10.0/TcpClient.pdb
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/obj/Debug/net10.0/TcpClient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/obj/Debug/net10.0/TcpClient.AssemblyInfoInputs.cache
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/obj/Debug/net10.0/TcpClient.AssemblyInfo.cs
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/obj/Debug/net10.0/TcpClient.csproj.CoreCompileInputs.cache
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/obj/Debug/net10.0/TcpClient.dll
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/obj/Debug/net10.0/refint/TcpClient.dll
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/obj/Debug/net10.0/TcpClient.pdb
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/obj/Debug/net10.0/TcpClient.genruntimeconfig.cache
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/TcpClient/obj/Debug/net10.0/ref/TcpClient.dll

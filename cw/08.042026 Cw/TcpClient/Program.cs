@@ -6,7 +6,7 @@ namespace ClientTcp
 {
     class Program
     {
-        private const int _Port = 49152;
+        private const int _Port = 8080;
         private const string _IP = "127.0.0.1";
 
         static void Main(string[] args)
@@ -19,20 +19,25 @@ namespace ClientTcp
                 sender.Connect(ipEndPoint);
                 
                 Console.WriteLine("connect");
+                while (true)
+                {
+                    Console.WriteLine("enter sms");
+                    string sms = Console.ReadLine();
+                    if  (sms=="exit")
+                        break;
 
-                Console.WriteLine("enter message");                
-                string sms = Console.ReadLine();
+                    byte[] msg = Encoding.Default.GetBytes(sms);
 
-                byte[] msg = Encoding.Default.GetBytes(sms);
-                
-                sender.Send(msg);
+                    sender.Send(msg);
 
-                byte[] bytes = new byte[1024];
-                
-                int bytesRec = sender.Receive(bytes);
+                    byte[] bytes = new byte[1024];
 
-                string answer = Encoding.Default.GetString(bytes, 0, bytesRec);
-                Console.WriteLine("from server: " + answer);
+                    int bytesRec = sender.Receive(bytes);
+
+
+                    string answer = Encoding.Default.GetString(bytes, 0, bytesRec);
+                    Console.WriteLine("from server: " + answer);
+                }
 
                 sender.Shutdown(SocketShutdown.Both);
                 sender.Close();

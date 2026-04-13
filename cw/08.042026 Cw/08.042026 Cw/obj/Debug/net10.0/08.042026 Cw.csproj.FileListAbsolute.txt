@@ -12,3 +12,4 @@
 /Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/08.042026 Cw/obj/Debug/net10.0/08.042026 Cw.pdb
 /Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/08.042026 Cw/obj/Debug/net10.0/08.042026 Cw.genruntimeconfig.cache
 /Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/08.042026 Cw/obj/Debug/net10.0/ref/08.042026 Cw.dll
+/Users/hevingmey/Desktop/network-programming/cw/08.042026 Cw/08.042026 Cw/obj/Debug/net10.0/08.042026 Cw.sourcelink.json

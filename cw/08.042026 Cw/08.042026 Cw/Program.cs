@@ -7,7 +7,7 @@ namespace _08._042026_Cw
 {
     class Program
     {
-        private const int _Port = 49152;
+        private const int _Port = 8080;
 
         static void Main(string[] args)
         {

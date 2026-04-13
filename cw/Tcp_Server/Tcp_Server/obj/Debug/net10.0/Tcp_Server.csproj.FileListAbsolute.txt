@@ -1,0 +1,15 @@
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/bin/Debug/net10.0/Tcp_Server
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/bin/Debug/net10.0/Tcp_Server.deps.json
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/bin/Debug/net10.0/Tcp_Server.runtimeconfig.json
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/bin/Debug/net10.0/Tcp_Server.dll
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/bin/Debug/net10.0/Tcp_Server.pdb
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/obj/Debug/net10.0/Tcp_Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/obj/Debug/net10.0/Tcp_Server.AssemblyInfoInputs.cache
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/obj/Debug/net10.0/Tcp_Server.AssemblyInfo.cs
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/obj/Debug/net10.0/Tcp_Server.csproj.CoreCompileInputs.cache
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/obj/Debug/net10.0/Tcp_Server.sourcelink.json
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/obj/Debug/net10.0/Tcp_Server.dll
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/obj/Debug/net10.0/refint/Tcp_Server.dll
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/obj/Debug/net10.0/Tcp_Server.pdb
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/obj/Debug/net10.0/Tcp_Server.genruntimeconfig.cache
+/Users/hevingmey/Desktop/network-programming/cw/Tcp_Server/Tcp_Server/obj/Debug/net10.0/ref/Tcp_Server.dll

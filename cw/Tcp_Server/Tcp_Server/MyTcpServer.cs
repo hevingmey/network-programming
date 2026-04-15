@@ -13,6 +13,7 @@ internal class MyTcpServer
     private static async Task HandleClientAsync(TcpClient client)
     {
         NetworkStream stream = client.GetStream();
+        
         byte[] buffer = new byte[1024];
         try
         {

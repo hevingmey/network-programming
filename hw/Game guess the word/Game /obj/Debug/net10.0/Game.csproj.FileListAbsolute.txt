@@ -1,0 +1,15 @@
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /bin/Debug/net10.0/Game
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /bin/Debug/net10.0/Game.deps.json
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /bin/Debug/net10.0/Game.runtimeconfig.json
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /bin/Debug/net10.0/Game.dll
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /bin/Debug/net10.0/Game.pdb
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /obj/Debug/net10.0/Game.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /obj/Debug/net10.0/Game.AssemblyInfoInputs.cache
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /obj/Debug/net10.0/Game.AssemblyInfo.cs
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /obj/Debug/net10.0/Game.csproj.CoreCompileInputs.cache
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /obj/Debug/net10.0/Game.sourcelink.json
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /obj/Debug/net10.0/Game.dll
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /obj/Debug/net10.0/refint/Game.dll
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /obj/Debug/net10.0/Game.pdb
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /obj/Debug/net10.0/Game.genruntimeconfig.cache
+/Users/hevingmey/Desktop/network-programming/hw/Game guess the word/Game /obj/Debug/net10.0/ref/Game.dll

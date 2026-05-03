@@ -1,0 +1,44 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SecretWordClient.MainPage">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <Label Text="Secret Word Game"
+               FontSize="28"
+               HorizontalOptions="Center" />
+
+        <Entry x:Name="ServerAddressEntry"
+               Placeholder="Server address"
+               Text="localhost" />
+
+        <Entry x:Name="PortEntry"
+               Placeholder="Port"
+               Text="5000"
+               Keyboard="Numeric" />
+
+        <Button Text="Connect"
+                Clicked="ConnectButton_Clicked" />
+
+        <Label x:Name="BoardLabel"
+               Text="_ _ _ _ _"
+               FontSize="30"
+               HorizontalOptions="Center" />
+
+        <Entry x:Name="LetterEntry"
+               Placeholder="Enter letter"
+               MaxLength="1" />
+
+        <Button Text="Send Letter"
+                Clicked="SendLetterButton_Clicked" />
+
+        <Label Text="Game history:" FontAttributes="Bold" />
+
+        <ScrollView HeightRequest="300">
+            <Label x:Name="HistoryLabel"
+                   Text=""
+                   FontSize="16" />
+        </ScrollView>
+
+    </VerticalStackLayout>
+</ContentPage>

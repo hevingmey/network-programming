@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MauiApp2/MauiApp2.csproj" />
+  <Project Path="TCP_Client_Desktop/TCP_Client_Desktop.csproj" Id="b491c874-e4ac-4e30-a8a4-acf480696976">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

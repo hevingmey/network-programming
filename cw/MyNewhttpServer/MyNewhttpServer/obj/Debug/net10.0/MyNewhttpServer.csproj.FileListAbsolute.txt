@@ -17,3 +17,9 @@
 /Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/pages/contacts.html
 /Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/pages/index.html
 /Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/pages/notfound.html
+/Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/.DS_Store
+/Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/pages/.DS_Store
+/Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/pages/images/contacts.jpg
+/Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/pages/images/team.jpg
+/Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/pages/images/travel.jpg
+/Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/pages/styles/style.css

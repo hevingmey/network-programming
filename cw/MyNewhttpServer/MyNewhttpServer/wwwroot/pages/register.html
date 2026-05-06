@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="/pages/styles/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Реєстрація</h1>
+</header>
+
+<nav>
+    <a href="/">Головна</a>
+    <a href="/about">Про нас</a>
+    <a href="/contacts">Контакти</a>
+    <a href="/register">Реєстрація</a>
+</nav>
+
+<div class="container">
+
+    <form method="post" action="/register">
+
+        <input type="text"
+               name="login"
+               placeholder="Login"
+               required>
+
+        <br><br>
+
+        <input type="password"
+               name="pwd"
+               placeholder="Password"
+               required>
+
+        <br><br>
+
+        <input type="email"
+               name="email"
+               placeholder="Email"
+               required>
+
+        <br><br>
+
+        <button type="submit">
+            Register
+        </button>
+
+    </form>
+
+</div>
+
+<footer>
+    <p>&copy; 2026</p>
+</footer>
+
+</body>
+</html>

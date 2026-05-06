@@ -4,16 +4,21 @@ using System.Text;
 using System.Net;
 using System.Text.Json;
 using System.Web;
+using System.Net;
+using System.Net.Mail;
+using System.Web;
 
 namespace MyNewHttpServer;
 
 class User
 {
-    public string Login { get; set; } = null!;
-    public string Pwd { get; set; } = null!;
+    public string Login { get; set; } = "";
+    public string Pwd { get; set; } = "";
+    public string Email { get; set; } = "";
+
     public override string ToString()
     {
-        return $"Login: {Login} Password {Pwd}";
+        return $"Login: {Login}, Password: {Pwd}, Email: {Email}";
     }
 }
 
@@ -44,7 +49,6 @@ internal class Server
 
                     string param = req.Url?.AbsolutePath ?? "/";
 
-                    // Try to serve static files first (images, css, js, etc.)
                     string staticPath = Path.Combine(
                         Directory.GetCurrentDirectory(),
                         "wwwroot",
@@ -65,7 +69,6 @@ internal class Server
                     }
                     else
                     {
-                        // HTML page routing
                         if (param == "/")
                         {
                             var queryString = req.QueryString;
@@ -106,17 +109,37 @@ internal class Server
                     using (var reader = new StreamReader(req.InputStream, req.ContentEncoding))
                     {
                         body = await reader.ReadToEndAsync();
-
-                        try
-                        {
-                            var formData = HttpUtility.ParseQueryString(body);
-                            Console.WriteLine($"Login: {formData["login"]} Password {formData["pwd"]}");
-                        }
-                        catch (Exception ex)
-                        {
-                            Console.WriteLine(ex.Message);
-                        }
                     }
+
+                    var formData = HttpUtility.ParseQueryString(body);
+
+                    User user = new User
+                    {
+                        Login = formData["login"] ?? "",
+                        Pwd = formData["pwd"] ?? "",
+                        Email = formData["email"] ?? ""
+                    };
+
+                    Console.WriteLine(user);
+
+                    await SendEmailAsync(user.Email, user.Login);
+
+                    string html = $@"
+        <html>
+        <body>
+            <h1>Реєстрація успішна</h1>
+            <p>Лист відправлено на {user.Email}</p>
+        </body>
+        </html>";
+
+                    byte[] buffer = Encoding.UTF8.GetBytes(html);
+
+                    res.ContentLength64 = buffer.Length;
+                    res.ContentType = "text/html";
+                    res.StatusCode = 200;
+
+                    using Stream output = res.OutputStream;
+                    await output.WriteAsync(buffer);
                 }
 
                 res.Close();
@@ -152,12 +175,34 @@ internal class Server
         string result = param switch
         {
             "/contacts" => "contacts.html",
-            "/about"    => "about.html",
-            "/"         => "index.html",
-            _           => "notfound.html"
+            "/about" => "about.html",
+            "/register" => "register.html",
+            "/" => "index.html",
+            _ => "notfound.html"
         };
 
         return result;
+    }
+    private async Task SendEmailAsync(string toEmail, string login)
+    {
+        MailAddress from = new MailAddress("YOUR_EMAIL@gmail.com", "My Server");
+        MailAddress to = new MailAddress(toEmail);
+
+        MailMessage message = new MailMessage(from, to);
+
+        message.Subject = "Реєстрація успішна";
+        message.Body = $"Вітаємо {login}! Реєстрація виконана успішно.";
+
+        SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+
+        smtp.Credentials = new NetworkCredential(
+            "YOUR_EMAIL@gmail.com",
+            "YOUR_APP_PASSWORD"
+        );
+
+        smtp.EnableSsl = true;
+
+        await smtp.SendMailAsync(message);
     }
 
     private string GetMimeType(string filePath)

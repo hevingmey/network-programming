@@ -23,3 +23,4 @@
 /Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/pages/images/team.jpg
 /Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/pages/images/travel.jpg
 /Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/pages/styles/style.css
+/Users/hevingmey/Desktop/network-programming/cw/MyNewhttpServer/MyNewhttpServer/bin/Debug/net10.0/wwwroot/pages/register.html

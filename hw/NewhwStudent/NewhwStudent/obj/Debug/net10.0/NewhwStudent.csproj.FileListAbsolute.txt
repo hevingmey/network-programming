@@ -1,0 +1,15 @@
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/bin/Debug/net10.0/NewhwStudent
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/bin/Debug/net10.0/NewhwStudent.deps.json
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/bin/Debug/net10.0/NewhwStudent.runtimeconfig.json
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/bin/Debug/net10.0/NewhwStudent.dll
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/bin/Debug/net10.0/NewhwStudent.pdb
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/obj/Debug/net10.0/NewhwStudent.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/obj/Debug/net10.0/NewhwStudent.AssemblyInfoInputs.cache
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/obj/Debug/net10.0/NewhwStudent.AssemblyInfo.cs
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/obj/Debug/net10.0/NewhwStudent.csproj.CoreCompileInputs.cache
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/obj/Debug/net10.0/NewhwStudent.sourcelink.json
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/obj/Debug/net10.0/NewhwStudent.dll
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/obj/Debug/net10.0/refint/NewhwStudent.dll
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/obj/Debug/net10.0/NewhwStudent.pdb
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/obj/Debug/net10.0/NewhwStudent.genruntimeconfig.cache
+/Users/hevingmey/Desktop/network-programming/hw/NewhwStudent/NewhwStudent/obj/Debug/net10.0/ref/NewhwStudent.dll
